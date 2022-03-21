@@ -136,7 +136,6 @@ a {
 }
 
 .iconwallet {
-    /* padding: 20px; */
     background: #239408;
     text-align: center;
     color: #fff;
@@ -150,4 +149,7 @@ a {
 .iconwallet p {
     padding-top: 10px;
     padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
