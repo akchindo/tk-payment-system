@@ -242,7 +242,11 @@ select {
     }
 
     .iconpaid {
-        margin-right: 320px;
+        margin-right: 100px;
+    }
+
+    .issues {
+        margin-right: 20px;
     }
 
     .footer {

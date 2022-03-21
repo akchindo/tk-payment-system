@@ -363,7 +363,52 @@ input {
         margin-right: 120px;
     }
 
-    .paymentrecord {
+    .flextable {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .screentable {
+        width: 20px;
+        margin-left: -450px;
+    }
+
+    .screentable1 {
+        width: 50px;
+        margin-left: -400px;
+    }
+
+    .headscreen {
+        width: 350px;
+    }
+
+    .headscreen1 {
+        width: 350px;
+    }
+
+    .headscreen1 input {
+        margin-left: 5px;
+    }
+
+    .fcomp  {
+        margin-top: 20px;
+
+    }
+
+    .fcompo {
+        margin-top: 30px;
+    }
+
+    #com {
+        margin-right: -320px;
         
+    }
+
+    .btndown {
+        margin-right: 80px;
+    }
+
+    .supportbtn {
+        margin-right: 70px;
     }
 }
