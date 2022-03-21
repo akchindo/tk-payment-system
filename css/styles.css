@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#flexlaf {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.logoscreen {
+    width: 500px;
+    height: 700px;
+    padding: 20px;
+    margin-left: 30px;
+    text-align: center;
+    color: #239406;
+}
+
+.logoscreen img {
+    padding-top: 150px;
+    margin-bottom: 10px;
+    
+}
+
+
+.loginbtn{
+    width: 250px;
+    padding: 8px 10px;
+    background: #239408;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+
+#login {
+    padding-left: 20px;
+    padding-top: 300px;
+    
+    width: 600px;
+    height: 700px;
+    background: #438e18  url(../images/fran-innocenti-nOwkd4YvdUg-unsplash\(1\).jpg) no-repeat center center/cover;
+}
+
+.logtext {
+    padding: 7px;
+    width: 53%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.loginflex input {
+    padding: 7px;
+    margin-right: 5px;
+    border-radius: 25px;
+    
+
+}
+
