@@ -48,7 +48,6 @@ a {
 #login {
     padding-left: 20px;
     padding-top: 300px;
-    
     width: 600px;
     height: 700px;
     background: #438e18  url(../images/fran-innocenti-nOwkd4YvdUg-unsplash\(1\).jpg) no-repeat center center/cover;
@@ -67,5 +66,26 @@ a {
     border-radius: 25px;
     
 
+}
+
+@media screen and (max-width: 768px) {
+    #flexlaf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logoscreen {
+        margin-right: 150px;
+        height: 400px;
+    }
+
+    .logoscreen img {
+        padding-top: 20px;
+    }
+
+    #login {
+        width: 370px;
+        margin-right: 125px;
+    }
 }
 
