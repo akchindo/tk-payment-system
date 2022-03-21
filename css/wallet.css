@@ -153,3 +153,44 @@ a {
     padding-right: 10px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .page-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .nav {
+        width: 500px;
+        height: 700px;
+    }
+
+    .nav .user {
+        padding-top: 20px;
+    }
+    .nav2 {
+        width: 500px;
+    }
+
+    .firstgrid {
+        margin-left: 20px;
+        width: 500px;
+    }
+
+    .supportbtn {
+        margin-right: 260px;
+    }
+
+    .iconsgrid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .iconwallet {
+        width: 300px;
+    }
+
+    .logout {
+        margin-right: 50px;
+    }
+}
