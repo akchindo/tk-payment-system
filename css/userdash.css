@@ -95,7 +95,7 @@ a {
 
 .paymentrecord {
     margin: auto;
-    max-width: 1100px;
+    width: 1100px;
     overflow: auto;
     padding: 0 150px;
 }
@@ -194,4 +194,59 @@ select {
 .icontext {
     margin-right: 10px;
     color: #b7b6bf;
+}
+
+@media screen and (max-width: 768px) {
+    .page-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .nav {
+        width: 500px;
+        height: 700px;
+    }
+
+    .nav a {
+        margin-left: 50px;
+    }
+
+    .nav .user {
+        padding-top: 20px;
+    }
+    .nav2 {
+        width: 500px;
+    }
+
+    .logout {
+        margin-right: 120px;
+    }
+
+    .paymentrecord {
+        margin: auto;
+        max-width: 600px;
+        margin-left: -80px;
+        overflow: auto;
+        /* padding: 0 90px; */
+        /* padding-right: 120px; */
+    }
+
+    .paymentrecord input {
+        width: 80%;
+    }
+
+    #paymentrecord {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .iconpaid {
+        margin-right: 320px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
 }

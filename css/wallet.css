@@ -166,6 +166,10 @@ a {
         height: 700px;
     }
 
+    .nav a {
+        margin-left: 50px;
+    }
+
     .nav .user {
         padding-top: 20px;
     }
@@ -175,11 +179,11 @@ a {
 
     .firstgrid {
         margin-left: 20px;
-        width: 350px;
+        width: 320px;
     }
 
     .supportbtn {
-        margin-right: 260px;
+        margin-right: 280px;
     }
 
     .iconsgrid {
@@ -187,10 +191,11 @@ a {
         grid-template-columns: repeat(1, 1fr);
     }
     .iconwallet {
-        width: 300px;
+        width: 190px;
+        margin-left: 10px;
     }
 
     .logout {
-        margin-right: 50px;
+        margin-right: 120px;
     }
 }
