@@ -224,4 +224,24 @@ a {
     .logout {
         margin-right: 120px;
     }
+
+    .screentable {
+        margin-left: -10px;
+    }
+
+    .headscreen {
+        width: 400px;
+    }
+
+    .headscreen1 {
+        width: 400px;
+    }
+
+    .btndown {
+        margin-right: 80px;
+    }
+
+    .supportbtn {
+        margin-right: 80px;
+    }
 }

@@ -143,4 +143,20 @@ a {
     .logout {
         margin-right: 120px;
     }
+
+    .flexicons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        padding: 20px;
+        margin-right: 80px;
+    }
+
+    .flexicons p {
+        margin-bottom: 20px;
+    }
+
+    .supportbtn {
+        margin-right: 100px;
+    }
 }
